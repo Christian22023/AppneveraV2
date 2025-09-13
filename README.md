@@ -1,3 +1,8 @@
+Appnevera es una aplicación web hecha con React y TypeScript para gestionar el contenido de una nevera: permite mantener inventarios de alimentos y recetas, almacenar la información en el servidor o, si no hay conexión, conservarla en localStorage.
+En el componente principal FridgeManager se manejan listas de alimentos y recetas, filtros, búsqueda en tiempo real y pestañas para dashboard, alimentos y recetas, con categorías predefinidas para clasificar cada producto.
+La lógica calcula cuántos días faltan para la caducidad, identifica alimentos próximos a expirar o ya vencidos y sugiere recetas que pueden prepararse según los ingredientes disponibles
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
